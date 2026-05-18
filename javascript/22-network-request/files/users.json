@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "john doe",
+      "age": 25,
+      "role": "admin",
+      "email": "john22@mail.com",
+      "password": "secret"
+    },
+    {
+      "name": "jessica doe",
+      "age": 22,
+      "role": "user",
+      "email": "jessica22@mail.com",
+      "password": "secret"
+    },
+    {
+      "name": "Ada doe",
+      "age": 18,
+      "role": "moderator",
+      "email": "Ada26@mail.com",
+      "password": "password"
+    }
+  ]
+}

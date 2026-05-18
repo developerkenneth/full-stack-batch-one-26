@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>My Restaurant</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- logo -->
+      <div>
+        <a href="#" class="nav-links">Logo</a>
+      </div>
+
+      <!-- navigation links -->
+      <nav>
+        <a class="nav-links" href="#about">about</a>
+        <a class="nav-links" href="#menu">menu</a>
+        <a class="nav-links" href="#contact">contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- hero section -->
+      <section class="hero">
+        <img class="hero-banner" src="burger.png" alt="burger image" />
+
+        <h1 class="hero-title">My Restaurant</h1>
+      </section>
+
+      <!-- About section -->
+      <section class="container flex">
+        <div id="about-img" class="section-image">
+          <img src="about.png" alt="about image" />
+        </div>
+
+        <div class="section-desc">
+          <div class="title-container">
+            <h1 class="title">About Our Restaurant</h1>
+            <h4 class="sub-title">Tradition Since 2026</h4>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+            inventore quo facere quae voluptates dolores culpa sunt error sit
+            voluptate, magni ullam blanditiis quasi, similique delectus placeat
+            non consequuntur nihil. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Omnis aspernatur consectetur, voluptatem fugiat
+            rem exercitationem asperiores odit. Quae totam id nam mollitia,
+            soluta, quam voluptas cupiditate reiciendis delectus vitae ab.
+            <span class="highlight">seasonal</span> ingredients
+          </p>
+
+          <p class="faded">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum consectetur adipiscing
+            elit, sed do eiusmod temporincididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </section>
+
+      <!-- menu section === using grid -->
+
+      <section class="container grid">
+        <!-- menu-conatiner -->
+        <div class="menu grid-item">
+          <div class="title-container">
+            <h1 class="title">Our Menu</h1>
+          </div>
+
+          <h3 class="sub-title">Bread Basket</h3>
+          <p class="meal">
+            Assortment of fresh baked fruit breads and muffins 5.50
+          </p>
+
+          <h3 class="sub-title">Bread Basket</h3>
+          <p class="meal">
+            Assortment of fresh baked fruit breads and muffins 5.50
+          </p>
+        </div>
+
+        <!-- menu image -->
+        <div class="section-image grid-item">
+          <img src="table_settings.png" alt=" table settings" />
+        </div>
+      </section>
+
+      <!-- contact form -->
+
+      <section class="contact-container">
+        <div class="title-container">
+          <h1 class="title">Contact</h1>
+        </div>
+
+        <p>
+          We offer full-service catering for any event, large or small. We
+          understand your needs and we will cater the food to satisfy the
+          biggerst criteria of them all, both look and taste. Do not hesitate to
+          contact us.
+        </p>
+
+        <h4 class="h-title">
+          Catering Service, 42nd Living St, 43043 New York, NY
+        </h4>
+
+        <p>
+          You can also contact us by phone 00553123-2323 or email
+          catering@catering.com, or you can send us a message here:
+        </p>
+
+
+        <form action="">
+
+          <div class="form-group">
+            <input type="text" placeholder="Name">
+          </div>
+
+           <div class="form-group">
+            <input type="number" placeholder="How many people">
+          </div>
+
+
+           <div class="form-group">
+            <input type="datetime-local">
+          </div>
+
+           <div class="form-group">
+            <input type="text" placeholder="Message \ Special Requirements">
+          </div>
+
+          <div class="form-group">
+            <button type="submit">SEND MESSAGE</button>
+          </div>
+          
+        </form>
+      </section>
+
+    </main>
+    
+    <!-- footer -->
+     <footer>
+      <p>Powered by <a href="#"> &copy; digital dreams</a></p>
+     </footer>
+  </body>
+</html>

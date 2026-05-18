@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "name": "Kenneth",
+      "age": 36,
+      "job": "software developer",
+      "courses": ["economics", "maths", "history", "science"]
+    },
+
+    {
+      "name": "John Doe",
+      "age": 26,
+      "job": "software engineer",
+      "courses": ["physics", "maths", "further maths", "science"]
+    },
+    {
+      "name": "Jessica Doe",
+      "age": 16,
+      "job": "software guru",
+      "courses": ["economics", "maths", "history", "science"]
+    }
+  ]
+}

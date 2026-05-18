@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "price": 245,
+      "category": "food",
+      "title": "egg",
+      "company": "ejima groups",
+      "stock": 13,
+      "description": "good egg ready to be eaten"
+    },
+    {
+      "id": "2",
+      "price": 24,
+      "category": "food",
+      "title": "bread",
+      "company": "mama biliki",
+      "stock": 36,
+      "description": "good bread ready to be eaten with ur family members"
+    },
+    {
+      "id": "3",
+      "price": 80,
+      "category": "funiture",
+      "title": "couch",
+      "company": "EXE groups",
+      "stock": 13,
+      "description": "clean couch ready to be sold"
+    },
+    {
+      "price": 25,
+      "categoery": "beverages",
+      "title": "orange drink",
+      "stock": 90,
+      "description": "better orange drink for ur body",
+      "company": "coke",
+      "id": "6BLMyKZ1mbE"
+    }
+  ],
+  "users": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

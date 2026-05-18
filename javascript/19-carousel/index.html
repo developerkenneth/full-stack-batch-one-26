@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript - DOM</title>
+</head>
+
+<body>
+
+
+
+    <h1>Welcome to Javascript DOM manipulation</h1>
+    <p>Building a nice carousel|slide</p>
+
+    <div class="carousel">
+        <div class="carousel-inner">
+            <!-- Slides -->
+            <div class="carousel-item active"><img src="images/photo.PNG" alt="Slide 1"></div>
+            <div class="carousel-item"><img src="images/photo_1.PNG" alt="Slide 2"></div>
+            <div class="carousel-item"><img src="images/photo_2.PNG" alt="Slide 3"></div>
+        </div>
+
+        <!-- Controls -->
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+
+    
+
+
+    <!-- external js -->
+    <script src="./app.js"></script>
+
+</body>
+
+
+</html>

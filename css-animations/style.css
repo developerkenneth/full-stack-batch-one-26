@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+}
+.beeping {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 1px solid gray;
+  margin: auto;
+  border-radius: 50%;
+  animation-name: beep;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes beep {
+  /* from{
+        background-color: black;
+    }
+
+    to{
+        background-color: white;
+    } */
+
+  /* using percentage */
+
+  25% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  75% {
+    transform: scale(1.7);
+  }
+
+  100% {
+    transform: scale(2);
+  }
+}

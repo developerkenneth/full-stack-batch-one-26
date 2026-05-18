@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /* creating a variable */
+  --sm: 0.8rem;
+  --md: 1.5rem;
+  --lg: 2.5rem;
+  --xlg: 4rem;
+
+  --primary: #000000;
+  --secondary: #f1f1f1;
+  --light: #fff;
+  --accent: #f44336;
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--font-primary);
+}
+.ps {
+  padding: var(--sm);
+}
+
+.pm {
+  padding: var(--md);
+}
+.pl {
+  padding: var(--lg);
+}
+
+.ms {
+  margin: var(--sm);
+}
+
+.mm {
+  margin: var(--md);
+}
+
+.ml {
+  margin: var(--lg);
+}
+
+.mxl {
+  margin: var(--xlg);
+}
+
+.center {
+  text-align: center;
+}
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-gray {
+  color: #75757e;
+}
+
+.text-secondary {
+  color: var(--font-secondary);
+}
+.logo {
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: var(--xlg);
+}
+
+#left-side-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  border: 1px dashed var(--accent);
+  padding-left: var(--xlg);
+  padding-top: var(--md);
+}
+
+nav {
+  margin: var(--xlg) 0px;
+}
+
+.link {
+  font-size: 20px;
+  padding: var(--sm) 0px;
+  padding-left: 10px;
+  display: inline-block;
+  width: 96%;
+}
+
+.link:hover {
+  background-color: var(--secondary);
+}
+
+.secondary-link {
+  font-size: 16px;
+  font-weight: 400;
+  padding: var(--sm) 0px;
+  padding-left: 10px;
+  display: inline-block;
+  width: 96%;
+}
+
+.secondary-link:hover {
+  background-color: var(--secondary);
+}
+
+main {
+  margin-left: 250px;
+  padding-left: 75px;
+  padding-top: var(--md);
+  padding-right: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px var(--sm);
+}
+
+.header-title {
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: var(--font-secondary);
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-description {
+  position: absolute;
+  top: 75px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 350;
+  font-family: var(--font-secondary);
+  letter-spacing: 2px;
+}
+
+.hero-subtitle {
+  color: white;
+  font-weight: 300;
+  font-family: var(--font-secondary);
+  letter-spacing: 1.5px;
+  font-size: 2.5rem;
+}
+
+.btn-primary {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 15px;
+  width: 175px;
+  border: none;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  font-size: large;
+}
+
+.btn-primary:hover {
+  background-color: #f1f1f1;
+  color: #000000;
+}
+
+.products {
+  padding: 15px;
+  color: #75757e;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--lg);
+  margin: 15px 0px;
+  filter: grayscale(75%);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+.product-description {
+  color: #000000;
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  margin: 8px 0px;
+}
+
+.price {
+  font-weight: bolder;
+  color: #000000;
+  font-family: var(--font-secondary);
+}
+
+.sell-now{
+    position: relative;
+}
+
+.sell-now:hover > .buy{
+    display: block;
+}
+
+.now{
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.buy{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 100px;
+    font-size: small;
+}
+
